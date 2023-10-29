@@ -14,7 +14,7 @@ module.exports = {
         loader: 'ts-loader'
       },
       {
-        test: require.resolve('phaser'),
+        test: require.resolve('Phaser'),
         loader: 'expose-loader',
         options: { exposes: { globalName: 'Phaser', override: true } }
       }
@@ -24,7 +24,7 @@ module.exports = {
     static: path.resolve(__dirname, './'),
     host: 'localhost',
     port: 8080,
-    open: false
+    open: true,
   },
   resolve: {
     extensions: ['.ts', '.js']

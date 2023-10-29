@@ -21,6 +21,7 @@
     "prettier": "2.8.8"
   },
   "scripts": {
+    "mygame": "cd src/mygame && yarn && yarn run dev",
     "webpack-boilerplate": "cd src/boilerplates/webpack-boilerplate && yarn && yarn run dev",
     "parcel-boilerplate": "cd src/boilerplates/parcel-boilerplate && yarn && yarn run dev",
     "alpha-adjust": "cd src/games/alpha-adjust && yarn && yarn run dev",
